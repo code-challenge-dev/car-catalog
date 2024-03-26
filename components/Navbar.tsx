@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -13,12 +15,13 @@ const Navbar = () => {
             alt="Auto Hub Logo"
             width={118}
             height={18}
-            className="object-contain"
+            className="object-contain hover:scale-105 duration-150"
           />
         </Link>
+
         <CustomButton
           btnType="button"
-          containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+          containerStyles="text-primary-blue hover:bg-primary-blue hover:text-white hover:shadow-md duration-500 rounded-full bg-white min-w-[130px]"
           title="Sign In"
         />
       </nav>
