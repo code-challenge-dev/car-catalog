@@ -35,3 +35,25 @@ export interface CarDetailsProps {
   closeModal: () => void
   car: CarProps
 }
+
+export interface FilterProps {
+  manufacturer: string
+  fuel: string
+  year: number
+  limit: number
+  model: string
+}
+
+export interface CustomFilterProps {
+  title: string
+  options: { title: string; value: string }[]
+}
+
+export interface HomeProps {
+  searchParams: FilterProps
+}
+
+export interface ShowMoreProps {
+  pageNumber: number
+  isNext: boolean
+}
