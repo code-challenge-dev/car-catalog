@@ -12,8 +12,8 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => {
         src={'/magnifying-glass.svg'}
         width={40}
         height={40}
-        className="object-contain"
-        alt="mgnifying-glass"
+        className="object-contain max-w-none"
+        alt="magnifying-glass"
       />
     </button>
   )
@@ -51,7 +51,7 @@ const SearchBar = () => {
 
     const newPathname = `${window.location.pathname}?${searchParams.toString()}`
 
-    router.push(newPathname)
+    router.push(newPathname, { scroll: false })
   }
 
   return (
@@ -61,7 +61,7 @@ const SearchBar = () => {
           manufacturer={manufacturer}
           setManufacturer={setManufacturer}
         />
-        <SearchButton otherClasses="sm:hidden" />
+        <SearchButton otherClasses="sm:hidden " />
       </div>
       <div className="searchbar__item">
         <Image
