@@ -43,7 +43,6 @@ const CarCard = ({ car }: FetchedCarsProps) => {
           fill
           priority
           alt="Car Model"
-          loading="eager"
           className="object-contain"
         />
       </div>
