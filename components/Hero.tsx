@@ -28,7 +28,7 @@ const Hero = () => {
             wrapper="div"
             speed={40}
             cursor={false}
-            className="h-[200px] sm:h-[300px] xl:h-[400px] "
+            className="h-[275px] sm:h-[300px] xl:h-[400px] "
             repeat={0}
           />
         </h1>
