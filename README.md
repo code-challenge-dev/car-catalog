@@ -1,6 +1,15 @@
-## Visit the Website
+# Car Catalog Project. Auto Hub.
 
-https://car-catalog-next-js-typescript.vercel.app
+The Auto Hub Project is a web application built to showcase a catalog of cars. It provides users with information about different car models, allowing them to browse, search, and filter cars based on various criteria.
+
+## Features
+
+- View a list of cars with details such as make, model, year, and price.
+- Search for specific cars by make, model, or year.
+- Filter cars by various criteria such as price range, year range, and make.
+- Sort cars based on price, year, or mileage.
+- Responsive design for optimal viewing on different devices.
+
 
 ## Website overview
 
@@ -27,4 +36,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Contributors
+
+- [Maksym Azimov]([link-to-your-profile](https://github.com/bbyc4kes)) - Lead Developer.
 
