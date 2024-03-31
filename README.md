@@ -38,5 +38,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Contributors
 
-- [Maksym Azimov]([link-to-your-profile](https://github.com/bbyc4kes)) - Lead Developer.
+[Maksym Azimov](https://github.com/bbyc4kes) - Lead Developer.
 
